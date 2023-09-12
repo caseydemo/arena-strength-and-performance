@@ -1,0 +1,7 @@
+# basic git ignore file
+#
+**/node_modules
+
+# ignore all assets in public folder
+#
+
