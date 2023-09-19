@@ -4,3 +4,6 @@
 .service {
     height: 500px;
 }
+.service_image {
+    width: 100%;
+}
