@@ -3,8 +3,9 @@ import Image from "./UI/Image";
 import Card from "./UI/Card";
 import './styles/Service.css';
 function Service(props) {
+    const id = "service-" + props.id;
     return (            
-        <Card id={props.id} >
+        <Card id={id} >
             <div className="row service" >
                 <h2 className="service-title">{props.title}</h2>
                 <div className="column services__left">

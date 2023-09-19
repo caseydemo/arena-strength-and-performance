@@ -22,12 +22,6 @@ function Services() {
       id: "group-classes",
       image: image_path + "bench_spot_1.png",
       text: "group training text"
-    },
-    {
-      title: "Chiropractic Care",
-      id: "chiropractic-care",
-      image: image_path + "chiropractic_1.png",
-      text: "chiropractic text"
     },    
     {
       title: "Strongman",

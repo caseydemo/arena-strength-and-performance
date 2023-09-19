@@ -2,22 +2,28 @@ import './styles/TopNav.css';
 import Image from './UI/Image';
 function TopNav() {
     return (
-        <div className="top-nav">
-            <div className="top-nav__left">
-                <a href="#">
-                    <Image className="top-nav-logo" src="/assets/GYMLOGO.png" alt="logo" />
-                </a>
-            </div>
-            <div className="top-nav__right">                
-                <a href="#open-gym">Open Gym</a>
-                <a href="#personal-training">Personal Training</a>
-                <a href="#group-classes">Group Classes</a>
-                <a href="#chiropractic-care">Chiropractic Care</a>
-                <a href="#strongman">Strongman</a>
-                <a href="#about-us">About</a>
-                <a href="#contact-us">Contact</a>                
-            </div>
-        </div>        
+        <nav className="navbar navbar-dark bg-dark">
+        < a className="navbar-brand" href = "#" > 
+            <Image src="./assets/GYMLOGO.png" />
+        </a >
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+      
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item">
+              <a className="nav-link" href="#service-open-gym">Open Gym</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#service-group-classes">Group Classes</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#service-personal-training">Personal Training</a>
+            </li>
+          </ul>
+        </div>
+      </nav >
     );
 }
 export default TopNav;
