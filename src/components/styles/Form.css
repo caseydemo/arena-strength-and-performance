@@ -2,3 +2,12 @@
     align-items: center;
     justify-content: center;
 }
+#contact-us-button {
+    /* block level button */
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
