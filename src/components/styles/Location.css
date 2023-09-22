@@ -1,4 +1,8 @@
 .location {
   align-items: center;
   justify-content: center;
+  /* width: 100%; */
+}
+.location iframe {
+  width: 100%;  
 } 
