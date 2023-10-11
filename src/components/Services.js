@@ -21,13 +21,13 @@ function Services() {
       title: "Group Classes",
       id: "group-classes",
       image: image_path + "bench_spot_1.png",
-      text: "group training text"
+      text: "Small group training that is limited to 6 participants at a time allowing more individualized attention and coaching. Classes are focused on building functional strength with compound and unilateral exercises with conditioning at the end. These are designed for all levels of fitness and capability."
     },    
     {
-      title: "Strongman",
-      id: "strongman",
+      title: "Rehab Only",
+      id: "rehab-only",
       image: image_path + "strong_man_1.png",
-      text: "strongman text"
+      text: "Work one on one with a member of our staff for 30 minutes per session. These sessions are centered around movement optimization and rehabilitating injuries or chronic muscular pain."
     }
   ];
 

@@ -21,6 +21,9 @@ function TopNav() {
             <li className="nav-item">
               <a className="nav-link" href="#service-personal-training">Personal Training</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#service-rehab-only">Rehab Only</a>
+            </li>
           </ul>
         </div>
       </nav >
