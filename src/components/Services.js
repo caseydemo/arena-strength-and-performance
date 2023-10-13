@@ -15,7 +15,7 @@ function Services() {
       title: "Personal Training",
       id: "personal-training",
       image: image_path + "bench_spot_1.png",
-      text: "personal training text"
+      text: "Work one on one with our qualified trainers and staff to reach your fitness goals based on what you need. Sessions are 1 hour long and geared towards your needs and capability."
     },
     {
       title: "Group Classes",
