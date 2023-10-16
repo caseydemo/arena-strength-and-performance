@@ -4,6 +4,8 @@ import emailjs from 'emailjs-com';
 import React, { useState, useRef } from 'react';
 
 function Form () {
+  console.log('emailjs id: ' + process.env.REACT_APP_EMAILJS_ID)
+  console.log('emailjs pw: ' + process.env.REACT_APP_EMAILJS_PW)
   const form = useRef();
   const [formSubmitted, setFormSubmitted] = useState(false);
 
@@ -11,7 +13,7 @@ function Form () {
     e.preventDefault();
     setFormSubmitted(true);
 
-    emailjs.sendForm('default_service', 'template_el87my9', form.current, 'fUCWCTBz7ACDlZ8vL')
+    emailjs.sendForm('default_service', process.env.REACT_APP_EMAILJS_ID, form.current, process.env.REACT_APP_EMAILJS_PW)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
