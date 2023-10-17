@@ -3,9 +3,7 @@ import Card from '../UI/Card';
 import emailjs from 'emailjs-com';
 import React, { useState, useRef } from 'react';
 
-function Form () {
-  console.log('emailjs id: ' + process.env.REACT_APP_EMAILJS_ID)
-  console.log('emailjs pw: ' + process.env.REACT_APP_EMAILJS_PW)
+function Form () {  
   const form = useRef();
   const [formSubmitted, setFormSubmitted] = useState(false);
 
