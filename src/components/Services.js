@@ -9,7 +9,7 @@ function Services() {
       title: "Open Gym",
       id: "open-gym",
       image: image_path + "open_gym_2.png",
-      text: "open gym text"
+      text: "Enjoy our facility with premium specialty fitness equipment which includes: strongman, powerlifting, crossfit, body building and functional movement amenities. All equipment is open for use to our members within hours of operation."
     },
     {
       title: "Personal Training",
