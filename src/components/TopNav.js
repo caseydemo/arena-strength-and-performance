@@ -2,7 +2,7 @@ import './styles/TopNav.css';
 import Image from './UI/Image';
 function TopNav() {
     return (
-        <nav className="navbar navbar-dark bg-dark">
+        <nav className="navbar">
         < a className="navbar-brand" href = "#" > 
             <Image src="./assets/GYMLOGO.png" />
         </a >

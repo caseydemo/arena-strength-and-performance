@@ -7,9 +7,9 @@ function Service(props) {
     return (
         <Card id={id} >           
             <div className="row">
-                <div className="col-sm">
+                <h3 className="col-sm">
                     {props.title}
-                </div>
+                </h3>
                 <div className="col-sm">
                     <Image className="service_image" src={props.image} alt="{props.title} image" />
                 </div>
