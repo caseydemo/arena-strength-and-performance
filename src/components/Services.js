@@ -26,7 +26,7 @@ function Services() {
     {
       title: "Rehab Only",
       id: "rehab-only",
-      image: image_path + "rehab_1.JPG",
+      image: image_path + "rehab_1.jpg",
       text: "Work one on one with a member of our staff for 30 minutes per session. These sessions are centered around movement optimization and rehabilitating injuries or chronic muscular pain."
     }
   ];
