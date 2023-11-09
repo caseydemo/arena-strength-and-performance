@@ -1,8 +1,10 @@
 // individual service component
 import Image from "./UI/Image";
 import Card from "./UI/Card";
+import Slideshow from "./UI/Slideshow";
 import './styles/Service.css';
 function Service(props) {
+    
     const id = "service-" + props.id;
     return (
         <Card id={id} className="service-card" >           
@@ -13,6 +15,7 @@ function Service(props) {
                     </h2>
                 </div>
                 <div className="col-sm">
+                    <Slideshow slideImages={props.slideImages} />
                     <Image className="service_image" src={props.image} alt="{props.title} image" />
                 </div>
                 <div className="col-sm">
