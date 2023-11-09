@@ -2,19 +2,21 @@ import './styles/Services.css';
 import Service from './Service';
 function Services() {
 
-  const image_path = process.env.PUBLIC_URL + '/assets/';
+  const image_path = process.env.REACT_APP_PUBLIC_URL + '/assets/';
+
+  console.log(image_path);
 
   const slideImages = [
     {
-      url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+      url: image_path + 'bench_spot_1.png',
       caption: 'Slide 1'
     },
     {
-      url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
+      url: image_path + 'bench_spot_1.png',
       caption: 'Slide 2'
     },
     {
-      url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+      url: image_path + 'bench_spot_1.png',
       caption: 'Slide 3'
     },
   ];
