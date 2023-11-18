@@ -4,6 +4,7 @@ import Card from "./UI/Card";
 import './styles/Service.css';
 function Service(props) {
     const id = "service-" + props.id;
+    const alt = props.title + " image";
     return (
         <Card id={id} className="service-card" >           
             <div className="row service_wrapper">                
@@ -13,7 +14,7 @@ function Service(props) {
                     </h2>
                 </div>
                 <div className="col-sm">
-                    <Image className="service_image" src={props.image} alt="{props.title} image" />
+                    <Image className="service_image" src={props.image} alt={alt} />
                 </div>
                 <div className="col-sm">
                 {props.text}
