@@ -2,7 +2,7 @@
     text-align: center;
 }
 .service_image {
-    width: 100%;
+    width: 100%;    
 }
 .service_wrapper {
     height:100%;
@@ -13,6 +13,9 @@
 /* media query for desktop size screens - min-width */
 @media only screen and (min-width: 768px) {
     .service-card {
-        height: 350px;
+        height: 475px;
+    }
+    .service_image {
+        width: 375px;
     }
 }
