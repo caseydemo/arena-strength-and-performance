@@ -2,8 +2,7 @@ import './styles/Services.css';
 import Service from './Service';
 function Services() {
 
-  const image_path = process.env.REACT_APP_PUBLIC_URL + '/assets/';
-
+  const image_path = process.env.PUBLIC_URL + '/assets/';
 
   const services = [
     {

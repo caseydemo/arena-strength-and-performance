@@ -22,20 +22,4 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  width: 100%;
-}
-.hero-text h1.hero-title {
-  font-weight: bolder;
-  width: 100%;
-}
-/* media query for desktop size screens - min-width */
-@media only screen and (min-width: 768px) {
-  .hero-text {
-    width:100%;
-    letter-spacing: 4px;
-  }
-  .hero-text h1.hero-title {
-    font-size: 90px;
-    letter-spacing: 7px;
-  }
 }
