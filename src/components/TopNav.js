@@ -2,7 +2,7 @@ import './styles/TopNav.css';
 import Image from './UI/Image';
 function TopNav() {
     return (
-        <nav className="navbar">
+        <nav className="navbar navbar-expand-md">
         < a className="navbar-brand" href = "#" > 
             <Image src="./assets/GYMLOGO.png" />
         </a >
@@ -10,7 +10,7 @@ function TopNav() {
           <span className="navbar-toggler-icon"></span>
         </button>
       
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <a className="nav-link" href="#service-open-gym">Open Gym</a>
