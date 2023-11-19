@@ -3,7 +3,6 @@ import Service from './Service';
 function Services() {
 
   const image_path = process.env.REACT_APP_PUBLIC_URL + 'assets/';
-  console.log(process.env.REACT_APP_PUBLIC_URL)
 
   const services = [
     {
