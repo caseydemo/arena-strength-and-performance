@@ -7,7 +7,7 @@ function TopNav() {
             <Image src="./assets/GYMLOGO.png" />
         </a >
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+          <Image className="barbell-icon" src="./assets/barbell_icon.webp" />
         </button>
       
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
