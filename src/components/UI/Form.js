@@ -21,43 +21,51 @@ function Form () {
 
   return (
     <Card className='contact-form'>
-      {/* if !formSubmitted, display 'contact us' and form, else display 'thank you' */}
-      
-      {!formSubmitted && (
-        // form not submitted - display form
-        <form ref={form} onSubmit={sendEmail}>
-          <h1>Contact Us</h1>
-          
-          <div className='form-group'>
-            <label>Name</label>
-            <input type="text" name="user_name" className='form-control' />
-          </div>
-
-          <div className='form-group'>
-            <label>Email</label>
-            <input type="email" name="user_email" className='form-control' aria-describedby="emailHelp" placeholder="Enter email" />
-          </div>
-          
-          <div className='form-group'>
-            <label>Message</label>
-            <textarea name="message"  className='form-control' />
-          </div>          
-          
-          <input className='btn btn-info btn-sm' id='contact-us-button' type="submit" value="Send" />            
-          
-        </form>
-      )}
-      {formSubmitted && (
-        // form submitted - display thank you
-        <div>
-          <h1>Thank You</h1>
-          <p>We appreciate your feedback.</p>
-        </div>
-      )}
-
-
-
+      <h2>Contact Us</h2>
+      <div>Email: strength@wellnesswithapurpose.com</div>
+      <div>Phone #: (859) 333 - 9300</div>
     </Card>
   );
+
+  // return (
+  //   <Card className='contact-form'>
+  //     {/* if !formSubmitted, display 'contact us' and form, else display 'thank you' */}
+      
+  //     {!formSubmitted && (
+  //       // form not submitted - display form
+  //       <form ref={form} onSubmit={sendEmail}>
+  //         <h1>Contact Us</h1>
+          
+  //         <div className='form-group'>
+  //           <label>Name</label>
+  //           <input type="text" name="user_name" className='form-control' />
+  //         </div>
+
+  //         <div className='form-group'>
+  //           <label>Email</label>
+  //           <input type="email" name="user_email" className='form-control' aria-describedby="emailHelp" placeholder="Enter email" />
+  //         </div>
+          
+  //         <div className='form-group'>
+  //           <label>Message</label>
+  //           <textarea name="message"  className='form-control' />
+  //         </div>          
+          
+  //         <input className='btn btn-info btn-sm' id='contact-us-button' type="submit" value="Send" />            
+          
+  //       </form>
+  //     )}
+  //     {formSubmitted && (
+  //       // form submitted - display thank you
+  //       <div>
+  //         <h1>Thank You</h1>
+  //         <p>We appreciate your feedback.</p>
+  //       </div>
+  //     )}
+
+
+
+  //   </Card>
+  // );
 };
 export default Form;
